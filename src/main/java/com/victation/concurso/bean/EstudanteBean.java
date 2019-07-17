@@ -3,9 +3,14 @@ package com.victation.concurso.bean;
 
 import com.victation.concurso.model.Estudante;
 
+import javax.inject.Named;
+
+@Named
 public class EstudanteBean {
 
-    public EstudanteBean(Estudante estudante) {
+    public EstudanteBean()
+
+    {
         this.estudante = new Estudante();
     }
 

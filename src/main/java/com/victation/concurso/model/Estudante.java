@@ -1,12 +1,34 @@
 package com.victation.concurso.model;
 
 
+import com.victation.concurso.model.enumerator.Turno;
+
 public class Estudante {
+    public Estudante() {
+        this.nome = nome;
+        this.nota1 = nota1;
+        this.nota2 = nota2;
+        this.nota3 = nota3;
+        this.turno = Turno.MATUTINO;
+    }
+
+    private Turno turno ;
+
+    public Turno getTurno() {
+        return turno;
+    }
+
+    public void setTurno(Turno turno) {
+        this.turno = turno;
+    }
 
     private String nome;
     private int nota1;
     private int nota2;
     private int nota3;
+
+
+
 
     public String getNome() {
         return nome;

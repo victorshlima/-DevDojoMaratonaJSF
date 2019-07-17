@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="com.victation.concurso:war">
+    <output-path>$PROJECT_DIR$/classes/artifacts/com_victation_concurso_war</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="com.victation.concurso" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.1" />
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.2.13" />
+          <element id="library" level="project" name="PrimeFaces-6.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="com.victation.concurso/web/Web" />
+    </root>
+  </artifact>
+</component>
